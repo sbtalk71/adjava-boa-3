@@ -11,7 +11,8 @@ public class ListDemo {
 
 	public static void main(String[] args) {
 		
-		Set<String>fruitsList=new HashSet<String>();
+		//Set<String>fruitsList=new HashSet<String>();
+		var fruitsList=new HashSet<String>();
 		
 		fruitsList.add("apple");
 		fruitsList.add("orange");
