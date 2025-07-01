@@ -17,6 +17,15 @@ public class EmpStremsDemo {
 					new Emp(107, "jolly", "pune", 90000, "male")
 				
 				);
+		
+		//List all the employees at Bangalore
+		//List all the employees who gets salary > 60000
+		//transfer the employees from pune to hyderabad
+		//give 10000 increment to all female employees
+		//calculate the total salary of all the employees
+		//transfer rahul from bangalore to hyderabad by giving 20000 salary hike
+		
+		
 
 	}
 
