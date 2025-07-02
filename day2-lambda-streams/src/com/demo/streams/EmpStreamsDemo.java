@@ -3,7 +3,7 @@ package com.demo.streams;
 import java.util.Arrays;
 import java.util.List;
 
-public class EmpStremsDemo {
+public class EmpStreamsDemo {
 
 	public static void main(String[] args) {
 		List<Emp> empList = Arrays.asList(new Emp(100, "shantanu", "hyderabad", 40000, "male"),

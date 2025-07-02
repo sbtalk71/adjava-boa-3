@@ -19,6 +19,8 @@ public class StreamDemo2 {
 		//collect all the names in a List with names starts with 's'
 		
 		List<String> names= namesList.stream().filter(name->name.startsWith("s")).collect(Collectors.toList());
+		
+		System.out.println(namesList.stream().skip(1).findFirst().get());
 
 	}
 
