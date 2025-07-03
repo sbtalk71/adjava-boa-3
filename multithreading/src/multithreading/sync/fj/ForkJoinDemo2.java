@@ -13,7 +13,6 @@ public class ForkJoinDemo2 {
 		List<Integer> numList = Arrays.asList(1, 4, 6, 7, 8);
 		
 		
-
 		AdderTask task = new AdderTask(numList);
 		
 		System.out.println(fjp.invoke(task));

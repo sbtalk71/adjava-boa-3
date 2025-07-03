@@ -7,9 +7,9 @@ import java.util.concurrent.Future;
 public class CallableMain1 {
 
 	public static void main(String[] args) throws Exception {
-		ExecutorService es = Executors.newFixedThreadPool(10);
+		//ExecutorService es = Executors.newFixedThreadPool(10);
 		// ExecutorService es= Executors.newCachedThreadPool();
-
+		ExecutorService es=Executors.newVirtualThreadPerTaskExecutor();
 		Future<String> future = es.submit(new ToUpperCaseWorker("test"));
 
 		System.out.println(" task submitted..");

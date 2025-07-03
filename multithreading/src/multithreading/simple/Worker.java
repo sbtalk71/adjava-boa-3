@@ -4,13 +4,13 @@ public class Worker implements Runnable {
 
 	@Override
 	public void run() {
-		String name=Thread.currentThread().getName();
+		Thread name=Thread.currentThread();
 		mytask(name);
 	}
 
 	
 	
-	private void mytask(String name) {
+	private void mytask(Thread name) {
 		try {
 			for(var i=0;i<10;i++) {
 				System.out.println(name+" : "+i);
