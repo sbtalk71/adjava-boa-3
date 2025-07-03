@@ -15,7 +15,7 @@ public class Demo {
 
 	public static void main(String[] args) throws Exception{
 		Demo d= new Demo();
-		//Thread.sleep(Long.MAX_VALUE);
+		Thread.sleep(Long.MAX_VALUE);
 		
 		System.out.println(Demo.ver);
 		
