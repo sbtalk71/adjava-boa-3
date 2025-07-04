@@ -12,6 +12,7 @@ public class Vector21Demo {
 		
 		VectorSpecies<Float> SPECIES=FloatVector.SPECIES_PREFERRED;
 		System.out.println(SPECIES.length());
+		
 
 	}
 
